@@ -20,17 +20,6 @@ public class Main{
 
         nomes.remove("José");// REMOVER
 
-        nomes.size();//MOSTRAR TAMANHO
-
-        Map<Integer,String> map = new HashMap<>();//CRIAR GET
-        //ADICIONAR
-        contas.put(1001,"Lucas");
-        contas.put(1002,"Amanda");
-
-        contas.get(1002);//BUSCAR
-
-        contas.remove(1002);//REMOVER
-
-        contas.containsKey(1001);//VERIFICAR CHAVE EXISTENTE 
+        System.out.println(nome.size());//MOSTRAR TAMANHO
     }
 }
